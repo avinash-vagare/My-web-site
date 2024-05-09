@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="day26.css">
+</head>
+<body>
+    
+    <form action="test" method="post"> 
+        <fieldset>
+        <h1>Registration Form</h1>
+        <p>Fill Out the form carefully for registration</p>   
+    <div class="box">
+        <h3>Student name</h3>
+    <input type="text" name="First_Name" placeholder="Enter First Name Here.">
+    <label>First Name</label>
+    </div>
+    <div class="box">
+    <input type="text" name="Last_Name" placeholder="Enter Last Name Here.">
+    <label>Last Name</label>
+    </div>
+    <div class="box">
+      <h3>Gender</h3>
+        <select>
+        <option value="">Please Select</option>
+        <option value="Male" name="Gender">Male</option>
+        <option value="Female" name="Female">Female</option>
+        <option value="Other" name="Other">Other</option>
+        </select>
+    </div>
+    <div class="box">
+        <h3>Student E-mail</h3>
+        <input type="email" placeholder="ex: myname@example.com"  name="E-mail">
+    </div>
+    <div class="box">
+        <h3>Student ID</h3>
+        <input type="text" placeholder="Student ID Here." name="Student ID">
+    </div>
+    <div class="box">
+        <h3>List of Classes</h3>
+        <select name="Classes">
+        <option value="">Please Select</option>
+        <option value="ECS">ECS</option>
+        <option value="BCA">BCA</option>
+        <option value="B.Com">B.Com</option>
+        <option value="M.com">M.Com</option>
+        <option value="MCA">MCA</option>
+        <option value="MA">MA</option>
+        </select>
+    </div>
+    
+    <input type="submit" value="Registration">
+    <input type="reset">
+    </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,92 @@
+.container{
+	background: #f1f8e9;
+}
+.navbar{
+	box-shadow: 0 2px 20px -5px black;
+	border: 2px solid black;
+	background: black;
+	position: sticky;
+	top: 1px;
+}
+.navbar .nav-list{
+	list-style-type: none;
+}
+.navbar .nav-list .nav-item .nav-link{
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+}
+.navbar .nav-list .nav-item .nav-link:hover{
+	color: yellow;
+
+}
+.navbar .nav-list .nav-item{
+	display: inline-block;
+	margin-left: 110px;
+
+
+}
+ .aboutImg{
+	margin-top: 15px;
+
+}
+  .aboutImg .title{
+ 	margin: 15px;
+	text-align: center;
+	
+}
+.title h1{
+	color: black;
+}
+.AboutUs{
+	text-align: center;
+	font-weight: 800;
+	font-size: 40px;
+	border-bottom: 2px solid black;
+}
+.AboutBox{
+	height: 450px;
+	width: 550px;
+	margin-top: 15px;
+	display: inline-block;
+	margin-left: 10px;
+
+}
+.AboutBox1{
+	height: 450px;
+	width: 666px;
+	margin-top: 15px;
+	display: inline-block;
+	margin-left: 30px;
+}
+.AboutBox1,h4{
+	font-size: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.AboutBox1,p{
+	font-size: 21px;
+}
+.Courses{
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 400px;
+	height: 600px;
+	display: inline-block;
+	background: #e1f5fe;
+}
+.courses, h1{
+	text-align: center;
+	font-size: 35px;
+	
+}
+.courses, p{
+	text-align: center;
+}
+.Courese, h5{
+    font-size: 18px;
+    padding: 10px;
+}
+.CoursesHeding{
+	border-bottom: 2px solid black;
+}

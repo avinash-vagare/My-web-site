@@ -1,0 +1,66 @@
+body{
+    background-color:#e0f2f1;
+}
+input{
+    display: block;
+    width: 110%;
+    padding: 10px;
+}
+label{
+    display: block;
+}
+.box{
+    display: inline-block;
+    width: 30%;
+    margin-left: 50px;
+    padding: 10px;
+
+}
+form{
+    height: 500px;
+    width: 700px;
+    padding: 50px;
+    margin-left: 250px;
+}
+h3{
+    margin:0 auto 5px;
+}
+h1{
+    margin: 5px auto 0;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+input[type="submit"]{
+    border: none;
+    width: 30%;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 120px;
+    font-size: 14px;
+    background-color:#880e4f;
+    color: white;
+}
+input[type="reset"]{
+    border: none;
+    width: 30%;
+    font-size: 14px;
+    background-color:#880e4f;
+    color: white;
+    display: inline-block;
+
+}
+select{
+    width: 120%;
+    padding: 10px;
+}
+fieldset{
+    padding-bottom: 30px;
+    padding-top: 20px;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 50px;
+    padding: 30px;
+}
+
