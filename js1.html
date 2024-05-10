@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div class="box" id="box">
+    <button id="lightbtn" onclick="light()" style="display: none";>ON</button>
+    <button id="darkbtn" onclick="dark()">OFF</button>
+    <h1 id="head">Riyality Software</h1>
+    <h2 id="head1">Services LLP </h2>
+    <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quasi eos tempora, iste, iusto aperiam officia, quisquam beatae eveniet a atque omnis sequi veniam quaerat provident officiis magnam dolor id.
+    Animi, minus! Nesciunt ab voluptates nulla tenetur eveniet cum similique veritatis eaque. Velit vel maiores minima eligendi officiis asperiores qui voluptas. Quaerat aut omnis animi voluptatem. Assumenda tempore sit labore!
+    Excepturi illo blanditiis repudiandae itaque, nam placeat velit harum deserunt eligendi similique quos voluptas odio numquam quas! Consectetur quibusdam cupiditate temporibus, tempora eum sequi consequatur asperiores reprehenderit ipsa repellendus sint.
+    Excepturi molestiae aliquid voluptatum quos nulla veniam illum pariatur, a itaque delectus assumenda minus sint, expedita dolorum autem quo deleniti? Fuga itaque quis suscipit minima voluptate ex officia dolor voluptas.
+    architecto autem sed? Repudiandae dolorem aliquam ullam. Illo fuga ex quis aliquam.
+    Inventore harum, blanditiis tenetur similique voluptatum ratione perferendis,a, corporis recusandae perferendis molestias veniam exercitationem sed quibusdam. Consequatur ullam reiciendis temporibus.
+    Inventore eos laborum vel est. Sit beatae eos quisquam illum? Reiciendis qui, sed nihil nisi officiis distinctio expedita maxime ratione ut, accusamus modi nobis quo nostrum dolor voluptate! Quibusdam, officia!
+    Porro ipsam nobis atque aperiam ducimus corporis pariatur ea eos est dolores, dolorem quod temporibus tempora impedit. Consequatur reprehenderit, debitis ut temporibus iure nobis iste excepturi sequi iusto voluptatem harum.</p>
+    
+</div>
+<script type="text/javascript">
+    function dark(){
+        document.getElementById('darkbtn').style.display ="none";
+        document.getElementById('lightbtn').style.display ="block";
+        var a = document.getElementById('box');
+        a.style.background = "#000";
+        a.style.color = "red";
+        a.style.border ="2px solid black"
+        a.style.height = "650px";
+        a.style.fontSize = "40px";
+        a.style.textAlign ="center";
+        a.style.borderRadius = "10px";
+        var a = document.getElementById('para');
+        a.style.color = "white";
+        a.style.border = "2px solid black";
+        a.style.borderRadius = "10px";
+        a.style.height = "300px";
+        a.style.textAlign = "center";
+        a.style.fontSize = "20px";
+        a.style.background = "black";
+        var a = document.getElementById('head1');
+        a.style.color = "yellow";
+    }
+    function light(){
+        document.getElementById('lightbtn').style.display = "none";
+        document.getElementById('darkbtn').style.display = "block";
+
+        var a = document.getElementById('box');
+        a.style.background = "white";
+        a.style.color ="black";
+        a.style.height = "650px";
+
+        
+    }
+</script>
+ 
+</script>
+</body>
+</html>

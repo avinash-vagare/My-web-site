@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style type="text/css"> 
+input{
+    padding: 7px;
+    margin-top: 5px;
+    width: 400px;
+    margin-bottom: 5px;
+}
+ </style>
+<body>
+    <label>Username:</label><br>
+    <input type="text" placeholder="Enter Your Name" onfocus="show()" onblur="view()" name="">
+    <p id="msg" style="display: none;">Username must be between 3 and 25 characters.</p><br>
+    <label>Email:</label><br>
+    <input type="text" placeholder="Enter Your Email" onfocus="show()" name=""><br>
+    <label>Password:</label><br>
+    <input type="password" placeholder="ds" onfocus="show()" onblur="view()" name="">
+    <p id="msg" style="display: none;">Password must has at least 8 characters that include at least 1 lowercase, 1 uppercase characters. 1 number, and 1 special character in (!@#$%^&*)</p>
+    <script type="text/javascript">
+    function show(){
+        document.getElementById('msg').style.display = "block";
+    }
+        
+   
+
+    </script>
+</body>
+</html> 
